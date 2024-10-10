@@ -23,7 +23,7 @@ const Login = () => {
         const isValid = !!data;
         if (isValid) {
             setUser(data);
-            nav('/');
+            nav('/myBookmarks');
         }
         setUserIsValid(isValid);
     }

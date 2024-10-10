@@ -18,7 +18,7 @@ const AddBookmark = ()=>{
     const onFormSubmit = async(e)=>{
         e.preventDefault();
         await axios.post('/api/bookmark/addbookmark',bookmark);
-        nav('/');
+        nav('/mybookmarks');
     }
     
     return(<>

@@ -6,6 +6,7 @@ import Signup from './Signup';
 import Login from './Login';
 import { AuthContextComponent } from './AuthContext';
 import AddBookmark from './AddBookmark';
+import MyBookmarks from './MyBookmarks';
 
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
                     <Route exact path='/signup' element={<Signup />} />
                     <Route exact path='/login' element={<Login />} />
                     <Route exact path='/addbookmark' element={<AddBookmark />} />
+                    <Route exact path='/mybookmarks' element={<MyBookmarks/>}/>
                 </Routes>
             </Layout>
         </AuthContextComponent>
