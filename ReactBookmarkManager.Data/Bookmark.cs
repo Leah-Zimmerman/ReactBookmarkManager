@@ -12,4 +12,5 @@ namespace ReactBookmarkManager.Data
         [JsonIgnore]
         public User User { get; set; }
     }
+
 }
